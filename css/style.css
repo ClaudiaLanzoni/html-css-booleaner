@@ -1,0 +1,29 @@
+body {
+    font-family: 'Benne', serif;
+}
+
+#articolo {
+    color: darkgrey;
+}
+
+#autore {
+    color: dodgerblue;
+}
+
+figcaption {
+    font-size: small;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+#pattern {
+    background: url(/img/pattern.png);
+    background-size: auto;
+    background-repeat: repeat-x;
+}
+
+ul {
+    text-align: left;
+}
