@@ -1,9 +1,22 @@
 body {
-    font-family: 'Benne', serif;
+    font-family: 'Castoro', serif;
 }
 
-#articolo {
-    color: darkgrey;
+#logo {
+    width: 15%;
+    padding-top: 40px;
+}
+
+#pattern {
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: dodgerblue;
+    background-repeat: repeat-x;
+    height: 100px;
+}
+
+.grigio {
+    color: darkslategray;
 }
 
 #autore {
@@ -18,12 +31,34 @@ figcaption {
     background-color: yellow;
 }
 
-#pattern {
-    background: url(/img/pattern.png);
-    background-size: auto;
-    background-repeat: repeat-x;
+th {
+    text-align: left;
+    width: 350px;
 }
 
-ul {
-    text-align: left;
+thead {
+    background: dodgerblue;
+    color: white;
+}
+
+.row {
+    background-color: lightblue;
+}
+
+h2 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 208px;
+}
+
+#grafico {
+    background-image: url(../img/graph.jpg);
+    width: 312px;
+    height: 208px;
 }
